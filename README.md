@@ -1,6 +1,6 @@
 # TeamMash
 
-Here I have implemented the Elo Rating Algorithm. So the idea is taken from the very popular FaceMash/Hotornot. Instead of ranking people we are ranking different football clubs. UI is minimal.
+Here I have implemented the Elo Rating Algorithm. So the idea is taken from the very popular FaceMash/Hotornot. Instead of ranking people we are ranking different football clubs. UI is kept minimal.
 
 ### Dependencies ###
 
