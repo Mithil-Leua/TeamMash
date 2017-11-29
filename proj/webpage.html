@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+		<script language="javascript" type="text/javascript" src="ajax.js"></script>
+		<script language="javascript" type="text/javascript" src="postdata.js"></script>
+		<h2>Pick your team</h2>
+	</head>
+	<body>
+		<p>
+			Here, we are testing the ELO Rating implementation. Not a big deal. Idea is borrowed from the very popular "Facemash". Instead of Ranking girls I picked football clubs to rate. 
+		</p>
+		<p>	
+			pick your favourite team between the two. 
+		</p>
+		<input type="button" value="New Pair" id = "ajaxButton"/>
+		<div>
+		<div id = "choice1" style="display: inline;">
+			<div>
+				<p id = "team1"></p>
+			</div>
+			<div>
+				<p id = "league1"></p>
+			</div>
+		</div>
+		<input type="button" value="select" id = "selectButton1" style="display: none;" />
+		<div id = "choice2" style="display: inline;">
+			<div>
+				<p id = "team2"></p>
+			</div>
+			<div>
+				<p id = "league2"></p>
+			</div>
+		</div>
+		<input type="button" value="select" id = "selectButton2" style="display: none;" />
+		</div>
+		<h3>Top 5 Teams</h3>
+		<p>Curious which teams are at the top?</p>
+		<div><input type="button" value="Top5" id = "getTopFive" onclick = " window.location='toppage.html'"/></div>
+	</body>
+</html>
+ 
